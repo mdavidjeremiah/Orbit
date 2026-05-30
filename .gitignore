@@ -1,0 +1,8 @@
+orbit_site/db.sqlite3
+orbit_site/.env
+orbit_site/__pycache__/
+orbit_site/*/__pycache__/
+orbit_site/*/*/migrations/__pycache__/
+core/.env
+.env
+.env.local
