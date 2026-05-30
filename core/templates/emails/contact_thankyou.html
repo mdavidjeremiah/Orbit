@@ -1,0 +1,28 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><style>
+body{margin:0;padding:0;background:#f4f6f9;font-family:Arial,sans-serif;color:#333}
+.w{max-width:600px;margin:40px auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.08)}
+.h{background:linear-gradient(135deg,#1a1a2e,#0f3460);padding:40px;text-align:center}
+.logo{font-size:28px;font-weight:800;color:#fff;margin:0}.logo span{color:#e94560}
+.b{padding:40px}.b h1{font-size:22px;font-weight:700;color:#1a1a2e}
+.b p{font-size:15px;line-height:1.7;color:#555}
+.box{background:#f8f9ff;border-left:4px solid #e94560;padding:16px 20px;margin:24px 0;border-radius:0 8px 8px 0}
+.box b{color:#1a1a2e}.cta{display:inline-block;background:#e94560;color:#fff!important;text-decoration:none;padding:12px 28px;border-radius:50px;font-size:15px;font-weight:600}
+.f{background:#f8f9ff;padding:24px;text-align:center;font-size:12px;color:#999}
+</style></head><body>
+<div class="w">
+  <div class="h"><p class="logo">Orbit<span>.</span></p></div>
+  <div class="b">
+    <h1>Thanks for reaching out, {{ name }}! 👋</h1>
+    <p>We've received your message and will get back to you within <strong>24 hours</strong>.</p>
+    <div class="box">
+      <p style="margin:0"><b>Subject:</b> {{ subject }}<br><b>Sent:</b> {{ sent_at }}</p>
+    </div>
+    <p>While you wait, feel free to explore our work.</p>
+    <a href="http://127.0.0.1:8000/#portfolio" class="cta">View Our Portfolio →</a>
+  </div>
+  <div class="f">
+    <p>Orbit Digital Agency · 1847 Oak Avenue, Portland OR 97201</p>
+    <p>© 2026 Orbit. All rights reserved.</p>
+  </div>
+</div>
+</body></html>

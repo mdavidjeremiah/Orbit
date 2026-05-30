@@ -1,0 +1,9 @@
+Welcome to the Orbit Newsletter!
+
+You'll receive: industry insights, case studies, and subscriber-only perks.
+
+Browse our portfolio: http://127.0.0.1:8000/#portfolio
+
+---
+You're receiving this because {{ email }} subscribed on our website.
+Orbit Digital Agency · support@orbit.example.com

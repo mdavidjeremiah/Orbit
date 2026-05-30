@@ -1,0 +1,11 @@
+Hi {{ name }},
+
+Thanks for reaching out to Orbit! We received your message and will reply within 24 hours.
+
+Subject : {{ subject }}
+Sent    : {{ sent_at }}
+
+Browse our work: http://127.0.0.1:8000/#portfolio
+
+---
+Orbit Digital Agency · support@orbit.example.com
