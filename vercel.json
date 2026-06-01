@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "requirements.txt", "use": "@vercel/python" }
+  ],
+  "env": {
+    "DJANGO_SETTINGS_MODULE": "orbit_site.settings",
+    "PYTHONUNBUFFERED": "1"
+  },
+  "build": {
+    "env": {
+      "DJANGO_SETTINGS_MODULE": "orbit_site.settings"
+    }
+  }
+}
